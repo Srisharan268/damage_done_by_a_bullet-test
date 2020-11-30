@@ -28,7 +28,7 @@ function draw() {
   if(wall.width/2+bullet.width/2 > wall.x-bullet.x){
     bullet.velocityX=0;
 
-    if(damage<10){
+    if(damage<=10){
       wall.shapeColor=rgb(0,255,0);
     } 
     
